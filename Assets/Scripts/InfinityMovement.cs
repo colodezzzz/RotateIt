@@ -29,10 +29,10 @@ public class InfinityMovement : MonoBehaviour
             boost = true;
         }
 
-        /*if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            transform.Rotate(-171f, 0f, 0f, Space.Self);
-        }*/
+            transform.Rotate(-45f, 0f, 0f, Space.Self);
+        }
 
         /*float rotationY = transform.rotation.eulerAngles.y;
 
